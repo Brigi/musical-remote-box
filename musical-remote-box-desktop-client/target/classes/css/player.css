@@ -1,0 +1,114 @@
+#buttonContainer {
+	-fx-background-color: linear-gradient(from 0% 0% to 100% 0%, reflect, black, dimgrey 90%, black 100%, white);
+}
+
+#backward {
+	/*developer path */
+	-fx-graphic: url("../images/backward_button.png");
+	
+	-fx-background-radius: 40;
+	-fx-alignment: center;
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, dimgrey); 
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#backward:hover {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, purple); 
+}
+
+#backward:pressed {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 60%, purple); 
+}
+
+#play {
+	/*developer path */
+	-fx-graphic: url("../images/play_button.png");
+	
+	-fx-background-radius: 50;
+	-fx-alignment: center;
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, dimgrey); 
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#play:hover {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, darkblue); 
+}
+
+#play:pressed {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 60%, darkblue); 
+}
+
+#stop {
+	/*developer path */
+	-fx-graphic: url("../images/stop_button.png");
+	
+	-fx-background-radius: 50;
+	-fx-alignment: center;
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, dimgrey); 
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#stop:hover {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, darkred); 
+}
+
+#stop:pressed {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 60%, darkred); 
+}
+
+#forward {
+	/*developer path */
+	-fx-graphic: url("../images/forward_button.png");
+	
+	-fx-background-radius: 40;
+	-fx-alignment: center;
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, dimgrey); 
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#forward:hover {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 75%, purple); 
+}
+
+#forward:pressed {
+	-fx-background-color: radial-gradient(focus-angle 45deg, focus-distance 5%, center 40% 40%, radius 50%, reflect, lightgray, black 60%, purple); 
+}
+
+#addSong {
+	/*developer path */
+	-fx-graphic: url("../images/addSong_button.png");
+	
+	-fx-background-radius: 0;
+	-fx-alignment: center-right;
+	-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, reflect, black, dimgrey 25%, black 100%, white);
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#addSong:hover{
+	-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, reflect, black, darkgreen 25%, black 100%, white);
+}
+
+#addSong:pressed{
+	-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, reflect, black, darkgreen 75%, black 100%, white);
+}
+
+.slider .axis .axis-tick-mark, .slider .axis .axis-minor-tick-mark {
+	-fx-fill: blue ;
+	-fx-stroke: red;
+}
+
+.list-cell:filled:selected {
+	-fx-text-fill: aqua;
+}
+
+.list-cell:filled {
+	-fx-text-fill: white;
+}
+
+.list-cell:even{
+    -fx-background-color: dimgrey;
+}
+
+.list-cell:odd{
+    -fx-background-color: grey;
+}
