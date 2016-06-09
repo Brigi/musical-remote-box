@@ -1,8 +1,0 @@
-mrb\server\MusicalRemoteBox.class
-mrb\server\MusicalRemoteBox$2.class
-mrb\server\api\IClientApi.class
-mrb\server\IMusicalRemoteBox.class
-mrb\server\model\AudioItem.class
-mrb\server\MusicalRemoteBox$1.class
-mrb\server\model\AudioPacket.class
-mrb\server\ServerStarter.class
